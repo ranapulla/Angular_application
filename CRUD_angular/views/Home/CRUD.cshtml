@@ -1,0 +1,48 @@
+﻿<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.9/angular-cookies.js"></script>
+
+@if (TempData["Msg"] != null)
+{
+    <p>@TempData["Msg"]</p>
+    TempData["Msg"] = null;
+}
+
+<div ng-app="MyApp.ctrl.crud">
+    <table class="table" style="width: 500px" ng-controller="loginController">
+        <tbody>
+            <tr>
+                <td>User Name</td>
+                <td>
+                    <input type="text" data-ng-model="User.UserName" placeholder="Username" /></td>
+            </tr>
+            <tr>
+                <td>Password</td>
+                <td>
+                    <input type="password" data-ng-model="User.Password" placeholder="Password" /></td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" data-ng-model="User.RemPass" />remember login </td>
+
+            </tr>
+            <tr>
+                <td>
+                    <input type="button" data-ng-click="validate()" value="Login" /></td>
+                <td>
+                    @Html.ActionLink("Signup", "Singup", "Home")
+                </td>
+            </tr>
+
+
+        </tbody>
+    </table>
+</div>
+
+@section scripts{
+    <script src="~/Scripts/app/routeConfig.js"></script>
+    <script src="~/Scripts/app/loginCtrl.js"></script>
+}
+
+

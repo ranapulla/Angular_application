@@ -1,0 +1,50 @@
+﻿@{
+    ViewBag.Title = "Singup";
+}
+
+<h2>Singup</h2>
+<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
+<script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+<script src="~/Scripts/jquery-1.9.1.js"></script>
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/app/SignUp.js"></script>
+
+<div ng-app="SignUp">
+    <div ng-controller="SignUpController">
+        <table class="table" style="width: 500px">
+            <tbody>
+
+                <tr>
+                    <td>User Name</td>
+                    <td>
+                        <input type="text" placeholder="Username" name="txtusername" data-ng-model="User.UserName" />
+
+                    </td>
+                </tr>
+                <tr>
+                    <td>Password</td>
+                    <td>
+                        <input type="password" placeholder="Password" data-ng-model="User.Password" /></td>
+                </tr>
+                <tr>
+                    <td>Email</td>
+                    <td>
+                        <input type="text" placeholder="Email" data-ng-model="User.Email" />
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" value="Singup" data-ng-click="save()" />
+
+                    </td>
+                </tr>
+
+
+
+            </tbody>
+
+        </table>
+    </div>
+</div>
+

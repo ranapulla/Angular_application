@@ -1,0 +1,79 @@
+[
+  {
+    "UserName": "Admin",
+    "Password": "Admin@123",
+    "Email": "info@gmail.com",
+    "Userid": 1,
+    "Isactive": true
+  },
+  {
+    "UserName": "rami",
+    "Password": "reddy",
+    "Email": "ramireddyraam@gmail.com",
+    "Userid": 2,
+    "Isactive": false
+  },
+  {
+    "UserName": "prasanna",
+    "Password": "prasnna@123",
+    "Email": "prasanna.pokuri@gmail.com",
+    "Userid": 3,
+    "Isactive": true
+  },
+  {
+    "UserName": "rami111",
+    "Password": "112233",
+    "Email": "ramireddy11@gmail.com",
+    "Userid": 4,
+    "Isactive": false
+  },
+  {
+    "UserName": "asdasd",
+    "Password": "asdasdas",
+    "Email": "asdasdasf@hhh.com",
+    "Userid": 5,
+    "Isactive": false
+  },
+  {
+    "UserName": "gfdfg",
+    "Password": "dfgdfg",
+    "Email": "fdhdf@fff.yhty",
+    "Userid": 6,
+    "Isactive": false
+  },
+  {
+    "UserName": "asd",
+    "Password": "asd",
+    "Email": "asfafgged@dgg.tfgg",
+    "Userid": 7,
+    "Isactive": false
+  },
+  {
+    "UserName": "safasf",
+    "Password": "sdfsdf",
+    "Email": "sdgsdfg@gg.fff",
+    "Userid": 8,
+    "Isactive": false
+  },
+  {
+    "UserName": "ramir",
+    "Password": "ramir",
+    "Email": "reddy@gmail.com",
+    "Userid": 9,
+    "Isactive": false
+  },
+  {
+    "UserName": "dfgdfg",
+    "Password": "dfgdfg",
+    "Email": "dgdfg@gg.hgh",
+    "Userid": 10,
+    "Isactive": false
+  },
+  {
+    "UserName": "sdfsdfsd",
+    "Password": "sdfsdfsdf",
+    "Email": "sdfsdfgdfgdf@df.fgdf",
+    "Userid": 11,
+    "Isactive": false
+  }
+]

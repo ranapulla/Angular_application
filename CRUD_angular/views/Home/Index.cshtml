@@ -1,0 +1,24 @@
+﻿@{
+    ViewBag.Title = "Dashboard";
+}
+
+<script src="~/Scripts/jquery-1.9.1.js"></script>
+<script src="~/Scripts/angular.js"></script>
+<script src="~/Scripts/app/IndexCtrl.js"></script>
+<div ng-app="Index">
+<div ng-controller="IndexController">
+
+@if (Session["Username"] != null)
+{
+    <h1>Welcome </h1>  <h2>@Session["Username"]</h2>
+    <input type="button" data-ng-click="Logout()" value="Sign Out" />
+}
+else
+{
+    Response.Redirect("Home/CRUD"); 
+}
+
+    </div>
+    </div>
+
+
